@@ -53,7 +53,7 @@ const Navigation = () => {
                   className="text-yellow-400 hover:text-yellow-500 transition-colors duration-smooth px-3 py-2 text-sm font-medium relative group"
 >
                   {item}
-                  <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-smooth" />
+                  <span className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 rounded-full scale-x-0 group-hover:scale-x-100 transition-transform duration-smooth" />
                 </button>
               ))}
             </div>
