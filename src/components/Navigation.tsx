@@ -34,7 +34,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
             <img
-              src="https://drive.google.com/file/d/17YempwSS8Iskw8bcX6GSLV2NRr8HNfvM/view?usp=drivesdk"
+              src="https://drive.google.com/uc?export=view&id=17YempwSS8Iskw8bcX6GSLV2NRr8HNfvM"
               alt="Nakashi Creation Logo"
               className="h-16 w-16 object-contain"
             />
