@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import logoimage from '@/assets/logo.png';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +34,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
             <img
-              src="/home/shinjan/Code/Web/nakash-creation-elegance/src/assets/logo.png"
+              src="src/assets/logo.png"
               alt="Nakashi Creation Logo"
               className="h-16 w-16 object-contain"
             />
