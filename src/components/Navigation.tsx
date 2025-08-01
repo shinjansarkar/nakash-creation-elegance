@@ -34,7 +34,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
             <img
-              src="https://static.vecteezy.com/system/resources/previews/006/446/719/non_2x/silhouette-of-a-needle-and-thread-for-design-clipart-or-logo-icon-vector.jpg"
+              src="https://png.pngtree.com/png-clipart/20210301/ourmid/pngtree-black-lines-threading-the-needle-png-image_2978254.jpg"
               alt="Nakashi Creation Logo"
               className="h-16 w-16 object-contain"
             />
