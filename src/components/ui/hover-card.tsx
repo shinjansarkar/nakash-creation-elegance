@@ -1,10 +1,10 @@
 import * as React from "react"
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card"
+import logo from "@/assets/logo.png" // ✅ Make sure the logo is here
 
 import { cn } from "@/lib/utils"
 
 const HoverCard = HoverCardPrimitive.Root
-
 const HoverCardTrigger = HoverCardPrimitive.Trigger
 
 const HoverCardContent = React.forwardRef<
@@ -20,7 +20,15 @@ const HoverCardContent = React.forwardRef<
       className
     )}
     {...props}
-  />
+  >
+    {/* ✅ You can add the logo preview here */}
+    <img
+      src={logo}
+      alt="Nakashii Creation"
+      className="w-32 h-auto mx-auto mb-2"
+    />
+    <p className="text-center text-sm font-semibold">Nakashii Creation</p>
+  </HoverCardPrimitive.Content>
 ))
 HoverCardContent.displayName = HoverCardPrimitive.Content.displayName
 
