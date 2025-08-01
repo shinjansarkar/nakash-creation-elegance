@@ -34,7 +34,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
             <img
-              src="src/assets/nakashi.jpeg"
+              src="src/assets/logo.png"
               alt="Nakashi Creation Logo"
               className="h-16 w-16 object-contain"
             />
