@@ -30,7 +30,7 @@ const About = () => {
     "Designer Gowns",
     "Indo-Western Fusion",
     "Ethnic Sarees",
-    "Signature Nakashis"
+    "Nakashi's Signature Style"
   ];
 
   return (
@@ -39,10 +39,10 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-primary mb-6">
-              The <span className="text-accent">Nakash</span> Legacy
+              The <span className="text-accent">Nakashi</span> Legacy
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              At Nakash Creation, we believe that fashion is more than just clothing—it's a celebration of culture, 
+              At Nakashi Creation, we believe that fashion is more than just clothing—it's a celebration of culture, 
               craftsmanship, and individual expression.
             </p>
           </div>
@@ -52,7 +52,7 @@ const About = () => {
             <div className="relative group overflow-hidden rounded-2xl animate-slide-in">
               <img
                 src={studioImage}
-                alt="Nakash Creation Studio"
+                alt="Nakashi Creation Studio"
                 className="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-luxury shadow-luxury"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-luxury" />
@@ -72,12 +72,12 @@ const About = () => {
                 </h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   Founded with a passion for preserving the timeless beauty of Indian traditional wear, 
-                  Nakash Creation has become synonymous with luxury and authenticity. We carefully curate 
+                  Nakashi Creation has become synonymous with luxury and authenticity. We carefully curate 
                   each piece to ensure it meets our exacting standards of quality and design.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   From the intricate embroidery of our sarees to the flowing silhouettes of our lehengas, 
-                  every garment tells a story of heritage, skill, and artistic vision. Our signature Nakashis 
+                  every garment tells a story of heritage, skill, and artistic vision. Our brand 
                   represent the perfect fusion of traditional craftsmanship and contemporary sensibility.
                 </p>
               </div>

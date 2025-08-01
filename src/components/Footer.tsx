@@ -17,7 +17,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="lg:col-span-2">
               <h3 className="text-2xl lg:text-3xl font-display font-bold mb-4">
-                Nakash <span className="text-accent">Creation</span>
+                Nakashi <span className="text-accent">Creation</span>
               </h3>
               <p className="text-primary-foreground/80 leading-relaxed mb-6 max-w-md">
                 Where tradition meets elegance. Discover the perfect blend of timeless Indian fashion 
@@ -57,7 +57,7 @@ const Footer = () => {
                   'Kurtis',
                   'Gowns',
                   'Indo-Western',
-                  'Nakashis'
+                  "Nakashi's Signature Collection"
                 ].map((item) => (
                   <li key={item}>
                     <span className="text-primary-foreground/80 hover:text-accent transition-colors duration-smooth cursor-default">
@@ -72,7 +72,7 @@ const Footer = () => {
           <div className="border-t border-primary-foreground/20 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-primary-foreground/60 text-sm mb-4 md:mb-0">
-                © 2024 Nakash Creation. All rights reserved.
+                © 2024 Nakashi Creation. All rights reserved.
               </div>
               <div className="flex items-center space-x-2 text-sm text-primary-foreground/60">
                 <Sparkles className="w-4 h-4 text-accent" />

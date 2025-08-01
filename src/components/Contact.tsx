@@ -48,7 +48,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      detail: "Fashion District, Mumbai, India",
+      detail: "Metropolitian Bypass Dhaba, Kolkata, India",
       link: "#"
     }
   ];

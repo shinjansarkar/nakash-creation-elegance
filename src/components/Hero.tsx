@@ -46,7 +46,7 @@ const Hero = () => {
         <div className="animate-slide-up" style={{ animationDelay: '0.6s' }}>
           <p className="text-lg sm:text-xl lg:text-2xl mb-8 font-light leading-relaxed max-w-2xl mx-auto">
             Discover the perfect blend of timeless Indian fashion and contemporary style at 
-            <span className="font-semibold text-accent"> Nakash Creation</span>
+            <span className="font-semibold text-accent"> Nakashi Creation</span>
           </p>
         </div>
         

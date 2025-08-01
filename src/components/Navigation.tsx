@@ -31,9 +31,14 @@ const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center gap-2">
+            <img
+              src="src/assets/logo.png"
+              alt="Nakashi Creation Logo"
+              className="h-16 w-16 object-contain"
+            />
             <h1 className="text-2xl lg:text-3xl font-display font-bold text-primary">
-              Nakash <span className="text-accent">Creation</span>
+              NAKASHI <span className="text-accent">CREATION</span>
             </h1>
           </div>
 
@@ -44,8 +49,8 @@ const Navigation = () => {
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
-                  className="text-foreground hover:text-primary transition-colors duration-smooth px-3 py-2 text-sm font-medium relative group"
-                >
+                  className="text-yellow-400 hover:text-yellow-500 transition-colors duration-smooth px-3 py-2 text-sm font-medium relative group"
+>
                   {item}
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-smooth" />
                 </button>
